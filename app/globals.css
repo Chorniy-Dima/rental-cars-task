@@ -17,7 +17,7 @@
 body {
   font-family: var(--font-manrope), sans-serif;
   color: var(--color-main);
-  background-color: var(--color-white);
+  background-color: var(--color-background);
 }
 
 a {
@@ -29,7 +29,7 @@ button {
   border: none;
   background: none;
   font-family: inherit;
-  /* ← modern-normalize НЕ наследует font у button */
+  color: inherit;
 }
 
 ul,
@@ -37,8 +37,11 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
-  max-width: var(--container-width);
-  padding: var(--container-padding);
+  max-width: 1440px;
   margin: 0 auto;
 }
