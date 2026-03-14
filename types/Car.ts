@@ -17,11 +17,18 @@ export interface Car {
   mileage: number;
 }
 
+export interface Response {
+  cars: Car[];
+  totalCars: number;
+  page: number;
+  totalPages: number;
+}
+
 export interface Filter {
   brand?: string;
   rentalPrice?: string;
   minMileage?: string;
   maxMileage?: string;
-  limit?: string;
-  page?: string;
+  limit?: number;
+  page?: number;
 }

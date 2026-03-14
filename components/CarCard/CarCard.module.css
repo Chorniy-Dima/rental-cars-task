@@ -1,0 +1,68 @@
+.card {
+    width: 276px;
+}
+
+.head {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.heartBtn {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.heart {
+    width: 16px;
+    height: 16px;
+}
+
+.image {
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.descr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: var(--color-side-text);
+    margin-bottom: 28px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 276px;
+    height: 44px;
+    background-color: var(--color-button);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    color: var(--color-white);
+    cursor: pointer;
+}
